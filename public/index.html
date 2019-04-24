@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Pictionary</title>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="style.css" />
+      <script src="socket.io/socket.io.js"></script>
+      <script src="main.js"></script>
+      <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+   </head>
+   <body>
+    <div id="yourself"></div>
+<!--      <div id = "error-container"></div>
+      <input type = "text" name = "name" value = "" placeholder = "Enter your name!">
+      <button type = "button" name = "button">Let me chat!</button> -->
+      <canvas id="drawing"></canvas>
+      <div id="chat">
+        <ul id="messages"></ul>
+        <ul id="userType"></ul>
+        <form action="">
+        <input id="m" autocomplete="off" /><button>Send</button>
+        </form>
+      </div>
+      <div id="onlineUsers">
+          <ul id="online"></ul>
+      </div>
+   </body>
+</html>
+
